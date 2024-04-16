@@ -1,0 +1,50 @@
+
+
+.event{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 1rem;
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    width: 30%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.event h2{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.event p{
+    margin: 0.5rem 0;
+}
+
+.event img{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.event button{
+    background-color: transparent;
+    border: none;
+}
+.event button:hover{
+    color: white;
+    cursor: pointer;
+}
+.likesContainer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+

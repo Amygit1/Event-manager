@@ -1,0 +1,41 @@
+
+
+.countdown {
+    position: absolute;
+    top: -75px;
+    left: -75px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #222121;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    overflow: hidden;
+    color: #2d2828;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countdown days {
+    color: #d9534f;
+}
+
+.countdown hours {
+    color: #f0ad4e;
+}
+
+.countdown minutes {
+    color: #5cb85c;
+}
+
+.countdown seconds {
+    color: #0275d8;
+}
